@@ -11,8 +11,8 @@ function ProjectPage() {
         <p className="eyebrow">404</p>
         <h1>Projektet blev ikke fundet</h1>
         <p>Det projekt findes ikke i listen endnu.</p>
-        <Link className="button" to="/projects">
-          Tilbage til projekter
+        <Link className="button" to="/">
+          Tilbage til forsiden
         </Link>
       </div>
     );
@@ -20,8 +20,8 @@ function ProjectPage() {
 
   return (
     <article className="page narrow">
-      <Link className="back-link" to="/projects">
-        Tilbage til projekter
+      <Link className="back-link" to="/">
+        Tilbage til forsiden
       </Link>
 
       <img className="detail-image" src={project.image} alt="" />
